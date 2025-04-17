@@ -1,0 +1,77 @@
+/* Cấu trúc chung của trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container cho chat */
+.chat-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 600px;
+    padding-top: 20px;
+}
+
+/* Box chứa cuộc trò chuyện */
+.chat-box {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding: 15px;
+    height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Các tin nhắn */
+.chat-message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    max-width: 80%;
+    word-wrap: break-word;
+}
+
+/* Tin nhắn từ người dùng */
+.user-message {
+    background-color: #d3f8e2;
+    align-self: flex-end;
+    color: #333;
+}
+
+/* Tin nhắn từ bot */
+.bot-message {
+    background-color: #e8e8e8;
+    color: #333;
+}
+
+/* Input tin nhắn */
+.chat-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Button gửi */
+button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
